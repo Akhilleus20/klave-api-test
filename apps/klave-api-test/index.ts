@@ -8,7 +8,7 @@ import { ErrorMessage, DataResult } from './types';
 export function grabData(): void {
 
     const queryHttp: HttpRequest = {
-        hostname: 'vpic.nhtsa.dot.gov',
+        hostname: 'https://vpic.nhtsa.dot.gov',
         port: 443,
         path: '/api/vehicles/getallmakes?format=json',
         headers: [],
